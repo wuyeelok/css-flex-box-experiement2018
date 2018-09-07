@@ -8,3 +8,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.item-3 {
+  order: -4;
+}
+
+.item-1 {
+  order: 2;
+}
