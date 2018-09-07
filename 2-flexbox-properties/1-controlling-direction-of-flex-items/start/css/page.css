@@ -27,3 +27,11 @@ body {
 	background: #3db5da;
 	border-radius: 3px;
 }
+
+.item-1 {
+	margin-right: auto;
+}
+
+.item-6 {
+	margin-left: auto;
+}
