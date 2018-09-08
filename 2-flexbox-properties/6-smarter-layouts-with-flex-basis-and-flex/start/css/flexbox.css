@@ -7,3 +7,11 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.item {
+	flex: 1 200px;
+}
+
+.item {
+	flex-grow: 2;
+}
