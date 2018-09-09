@@ -11,13 +11,26 @@
 @media (min-width: 769px) {
 
 	.main-header,
-	.main-nav {
+	.main-nav,
+	body {
 		display: flex;
 	}
 	.main-header {
 		flex-direction: column;
 		align-items: center;
 	}
+
+	body {
+		flex-direction: column;
+		
+		height: 100vh;
+	}
+
+	.row {
+		flex: 1;
+	}
+
+	
 
 }
 
