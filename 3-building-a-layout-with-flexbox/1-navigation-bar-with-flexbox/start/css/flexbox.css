@@ -14,11 +14,25 @@
     justify-content: center;
   }
 
+  /* step 2 */
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex: 1;
+  }
+
 }
 
 @media (min-width: 1025px) {
   .main-header {    
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  /* step 2 */
+  .primary {
+    flex-grow: 2;
   }
 }
